@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <table border="1">
+      <tr>
+        <td>id</td>
+        <td>titulo</td>
+        <td>descrição</td>
+      </tr>
+        <%for(var i=0; i<lista.length;i++){%>
+          <tr>
+            <td><%=lista[i].id%></td>
+            <td><%=lista[i].titulo%></td>
+            <td><%=lista[i].descricao%></td>
+          </tr>
+
+        <%}%>
+      <tr>
+      </tr>
+    </table>
+  </body>
+</html>
